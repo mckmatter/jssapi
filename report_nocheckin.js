@@ -48,7 +48,7 @@ function callback(err, res, body){
 			text: "JSS API Computer Report",
 			from: sendFrom,
 			to: sendTo,
-			subject: subject,
+			subject: sendSubject,
 			attachment:[
 				{data:render, alternative:true}
 			]
