@@ -1,0 +1,15 @@
+{
+  "name": "jssapi",
+  "version": "1.0.0",
+  "description": "A set of scripts for interacting with the jss api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan McKenna",
+  "license": "MIT",
+  "dependencies": {
+    "emailjs": "^2.0.0",
+    "mustache": "^2.3.0"
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		table, th, td{
+			padding: 5px;
+			border: 1px solid black;
+		} 
+	</style>
+</head>
+<body>
+	<h2>JSS Computer Report: No Checkin in 2 Weeks</h2>
+	<table>
+		<tr>
+			<th>Computer Name</th>
+			<th>IP Address</th>
+			<th>Last Checkin</th>
+			<th>Username</th>
+		</tr>
+		{{#computer_reports}}
+		<tr>
+			<td>{{Computer_Name}}</td>
+			<td>{{IP_Address}}</td>
+			<td>{{Last_Check_in}}</td>
+			<td>{{Username}}</td>
+		</tr>
+	{{/computer_reports}}
+	</table>
+
+
+</body>
+</html>
